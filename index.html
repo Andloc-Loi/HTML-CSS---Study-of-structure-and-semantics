@@ -5,31 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aloisio HTML & CSS</title>
+    <style>
+        /* uso de id:*/
+        #titulo-da-pagina {
+            -webkit-text-fill-color: rgb(3, 3, 50);
+        }
+
+        /* uso de class:*/
+        .background-estiloso {
+            background-color: rgb(106, 192, 176);
+        }
+
+        /* uso de class:*/
+        .titulo-estiloso {
+            -webkit-text-fill-color: rgb(3, 3, 50);
+        }
+    </style>
 </head>
 
 <body style="background-color: rgb(145, 197, 180);">
-
-
-    <header style="-webkit-text-fill-color: rgb(3, 3, 50);">
-        <h1 style=" text-align: center;">Ultilizando na pratica HTML & CSS</h1>
+    <header>
+        <h1 id="titulo-da-pagina" style="text-align: center;">Ultilizando na pratica HTML & CSS</h1>
     </header>
-
     <form style="text-align: center;">
 
-        <h2>Inicio</h2>
-        <p>Olá,me chamo <a href="https://github.com/Andloc-Loi">Aloisio</a>. Isso é secretamente um teste de vinculação
-            de
-            link</p>
-        <p><img src="https://www.shutterstock.com/image-vector/pixel-art-retro-game-level-600nw-2513324693.jpg"
-                width="500" alt=""></p>
 
+        <p>Olá, me chamo <a href="https://github.com/Andloc-Loi"><b>Aloisio</b></a>. Essa é minha primeira vez
+            programando em <b>HTML</b> & <strong>CSS</strong>.
+        </p>
+        <h2 class="background-estiloso titulo-estiloso">Inicio</h2>
+        <p class="background-estiloso">Por que não começar colocando uma <i>imagem</i> <em>bonita?</em></p>
+        <p>
+            <img src="https://www.shutterstock.com/image-vector/pixel-art-retro-game-level-600nw-2513324693.jpg"
+                width="500" alt="">
+        </p>
         <input type="text" placeholder="hehe placeholder">
-        <button>Será que da pra criar um botão gigante?</button>
+        <a href="http://127.0.0.1:5500/index.html?">
+            <button>Será que da pra criar um botão gigante?</button>
+        </a>
+        <a href="https://www.youtube.com/@aloisio9532">
+            <br><br><img src=" https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="" width="50">
+        </a>
+        <blockquote
+            cite="https://www.tecmundo.com.br/internet/3145-frases-impactantes-sobre-tecnologia-e-informatica.htm">
+            <em>“O verdadeiro perigo não é que computadores começarão a pensar como homens, mas que homenscomeçarão a
+                pensar
+                como computadores.”</em>
+            <br> <b>J. Harris, jornalista e escritor estadunidense.</b>
+        </blockquote>
+
+        <br> <img src="https://t3.ftcdn.net/jpg/08/20/48/92/360_F_820489218_tKjBPEA1l0RoOJjLdqYMfXAsMq3UoyrT.jpg"
+            width="500" alt="">
+
+        <blockquote>
+            “Acho que o mundo vai acabar em preto e branco, igual a um filme antigo.(…) Talvez, enquanto haja cores,
+            consigamos sobreviver.”
+            <br><b>Neil Gaiman, escritor inglês</b>
+
+
+        </blockquote>
 
     </form>
-
-</body>
-
-
 
 </html>
